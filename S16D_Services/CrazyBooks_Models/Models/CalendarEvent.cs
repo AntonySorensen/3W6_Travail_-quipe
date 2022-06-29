@@ -8,5 +8,6 @@ namespace CrazyBooks_Models.Models
 {
     class CalendarEvent
     {
+        public int Id { get; set; }
     }
 }

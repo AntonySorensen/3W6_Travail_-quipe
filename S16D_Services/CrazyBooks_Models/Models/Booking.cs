@@ -14,5 +14,7 @@ namespace CrazyBooks_Models.Models
         public DateTime Date { get; set; }
         public string Event { get; set; }
         public string Commentary { get; set; }
+        public int CalendarEvent_Id { get; set; }
+        public CalendarEvent CalendarEvent { get; set; }
     }
 }
